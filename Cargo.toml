@@ -21,11 +21,11 @@ ahash = "0.8"
 egui-winit = "0.28.1"
 egui = "0.28.1"
 image = "0.25"
-winit = { version = "0.29" }
-vulkano = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}
+winit = {version = "0.29" }
+vulkano = {version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git", rev="5b466bf14323383b78745c3fadc336f103304261"}
 vulkano-shaders = "0.34"
 
 [dev-dependencies]
 cgmath = "0.18.0"
 egui_demo_lib = "0.28.1"
-vulkano-util = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git"}
+vulkano-util = { version = "0.34", git = "https://github.com/vulkano-rs/vulkano.git", rev="5b466bf14323383b78745c3fadc336f103304261"}
